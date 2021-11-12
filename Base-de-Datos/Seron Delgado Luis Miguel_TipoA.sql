@@ -1,0 +1,57 @@
+--1 SELECCIONA LA PRECIPITACION TOTAL MEDIA EN LAS ESTACIONES DE ARAGÓN DURANTE EL MES DE JUNIO DE
+2019, CUANDO ESTA SEA MENOR QUE 20. REDONDEA LA SALIDA CON 2 DECIMALES. 
+
+SELECT ROUND(AVG(precipitacion_total),2)
+FROM climatologia
+WHERE fecha BETWEEN ('2019-06-01') AND ('2019-06-30')
+AND estacion ILIKE ('Huesca', 'Zaragoza', 'Teruel');
+	OR estacion ILIKE 'Teruel'
+	OR estacion ILIKE 'Zaragoza';
+
+
+--2 ALGUNOS DE NUESTROS USUARIOS TIENEN DUDAS DE QUE LA PRECIPITACION TOTAL ESTÉ BIEN CALCULADA.
+SELECCIONA TODOS LOS DATOS DE CLIMATOLOGÍA, MOSTRANDO ADEMÁS LA SUMA DE PRECIPITACIONES EN LOS DIFERENTES
+TRAMOS DE HORA, PARA AQUELLAS ESTACIONES METEOROLÓGICAS QUE CONTENGAN UNA F, UNA T O UNA X, Y DONDE LA 
+FECHA DEL MES SEA FEBRERO 2019.
+
+SELECT SUM(precipitacion_0_a_6 + precipitacion_6_a_12 + precipitacion_12_a_18 + precipitacion_18_a_24) AS Precipitacion_total , 
+fecha , estacion , provincia , temperatura_maxima , hora_temperatura_maxima , temperatura_minima , hora_temperatura_minima , 
+temperatura_media , racha_viento , hora_racha_viento , velocidad_maxima_viento , hora_velocidad_maxima_viento 
+FROM climatologia
+WHERE estacion ILIKE '%e%'
+	OR (estacion ILIKE '%f%'
+	OR estacion ILIKE '%t%');
+
+--3 SELECCIONAR TODAS LAS ESTACIONES QUE EMPIEZAN POR 'Ba', CUYA TEMPERATURA MAXIMA ESTUVIERA ENTRE
+25 Y 30 GRADOS Y LA MINIMA FUESE INFERIOR A LOS 15 GRADOS, SIEMPRE QUE LA FECHA SEA DE SEPTIEMBRE
+Y OCTUBRE DEL 2019. ORDENA LA SALIDA DE MANERA ALEATORIA.
+
+SELECT *
+FROM climatologia
+WHERE estacion LIKE 'Ba%'
+AND temperatura_maxima BETWEEN 25 AND 30
+AND temperatura_minima > 15
+AND fecha BETWEEN ('2019-09-01') AND ('2019-10-31')
+ORDER BY temperatura_maxima DESC;
+
+--4 SELECIONA LA ESTACION, PROVINCIA, FECHA Y RACHA DE VIENTO, DONDE DICHA RACHA DE VIENTO SEA MAYOR
+A 25 Y HORA DE LA RACHA DE VIENTO FUESE A LAS 15:00, EN LOS MESES DE MARZO O ABRIL; ADEMÁS LA 
+TEMPERATURA MAXIMA DEBE SER MAYOR A 23. ORDENA LA SALIDA POR RACHA DE VIENTO DESC. ADEMÁS SE DEBE MOSTRAR
+UNA COLUMNA ADICIONAL TEXTUAL EN FUNCION DEL VALOR DE LA RACHA DE VIENTO.
+25 < RACHA VIENTO <= 40 'VENTOSO'
+40 < RACHA VIENTO <= 60 'MUY VENTOSO'
+60 < RACHA VIENTO 'HURACANADO'
+SELECT estacion, provincia, fecha, racha_viento
+FROM climatologia
+	CASE
+		WHEN racha_viento < 25 THEN 'Poco ventoso'
+		WHEN racha_viento <= 40 THEN 'Ventoso'
+		WHEN racha_viento <= 60 THEN 'Muy ventoso'
+		WHEN racha_viento > 60 THEN 'Huracanado'
+	END AS 'Racha_viento_literal'
+WHERE racha_viento > 25
+AND hora_racha_viento ILIKE '15:00'
+AND (fecha::text ILIKE '2019-03-%'
+	OR fecha::text ILIKE '2019-04-%')
+AND temperatura_maxima > 23
+ORDER BY racha_viento DESC;

@@ -1,0 +1,11 @@
+Todo siguiente con todas las opciones.
+Guardar contraseña y usuario.
+PUERTO :  5432
+
+____________________
+Pgadmin
+Instalar Spatial Extensions
+Instalar ahora los ficheros PostGis y la nueva base de datos
+no cambiar nombre de usuario
+contraseña administrativa (la del posgrest)
+pregunta algo, aceptas.

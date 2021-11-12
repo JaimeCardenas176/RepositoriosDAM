@@ -1,0 +1,13 @@
+CICLO DE VIDA DE UN REPOSITORIO
+
+1. Inicialización "Obtener el REPOSITORIO".
+	-iniciar.
+	-clonar.
+2. Crear ficheros.
+   Editar ficheros.
+   Crear directorios.
+   Borrar cosas.
+3. Staging área ---- > Se repite cuantas veces quiera.
+4. Confirmación o COMMIT.
+5. Push. (Sólo para remoto)
+6. Pull. (Sólo para remoto)

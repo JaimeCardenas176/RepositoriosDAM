@@ -1,0 +1,4 @@
+CREAR UNA BD
+1.- Crear BD - BD - Climatología.
+2.- Descargar datos de Climatología.
+3.- El dueño será siempre postgrest.
