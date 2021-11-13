@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    margin-left: 33px;
+}
+h2{
+    font-size: 45px;
+    margin-left: 33px;
+}
+h3{
+    font-size: 40px;
+    margin-left: 33px;
+}
+p{
+    word-spacing: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 10px;
+    font-size: 33px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+a{
+    font-size: 33px;
+    margin-left: 33px;
+}
+p.especial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    font-style: italic;
+}

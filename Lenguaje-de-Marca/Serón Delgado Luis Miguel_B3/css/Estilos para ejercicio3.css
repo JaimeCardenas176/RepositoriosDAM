@@ -1,0 +1,37 @@
+body{
+    background-image: url("../imagenes/wallpaper3.jpg");
+    margin-left: 100px;
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    text-transform: uppercase;
+    text-align:left;
+    font-size: 75px;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    display:block;
+    margin:auto;
+    margin-left: 950px;
+}
+hr{
+    margin-right: 670px;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+p{
+    font-size: 33px;
+    font-weight: 800;
+}
+ul{
+    font-size: 33px;
+        color:cornflowerblue;
+}
+span.uno{
+    color:cornflowerblue;
+}
