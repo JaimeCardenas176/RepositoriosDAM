@@ -45,6 +45,9 @@ p.p6{
     word-spacing: 8cm;
     text-align: left;
 }
+a{
+    margin-left: 100px;
+}
 body{
     background-color: aqua;
 }

@@ -1,36 +1,30 @@
+body{
+    margin-left: 100px;
+}
 h1{
     font-size: 53px;
-    margin-left: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 h2{
     font-size: 40px;
-    margin-left: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
 p.primero{
-    margin-left: 100px;
     font-style: italic;
     font-size: 33px;
     font-family:'Franlin Gothic Medium';
 }
 p.segundo{
-    margin-left: 100px;
     font-style: italic;
     font-size: 33px;
     font-family:Verdana, Tahoma, sans-serif;
 }
 p.tercero{
-    margin-left: 100px;
     font-style: italic;
     font-size: 33px;
     font-family:'Times New Roman', Times, serif
 }
 p.cuarto{
-    margin-left: 100px;
     font-style: italic;
     font-size: 20px;
-}
-img{
-    margin-left: 100px;
 }
