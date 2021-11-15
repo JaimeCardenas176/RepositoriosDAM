@@ -1,4 +1,3 @@
-ENTORNO 		EXAMEN		15 Nov. Lunes.
 BD			EXAMEN		24 Nov. Miércoles.
 ENTORNO			EXAMEN		25 Nov. Jueves.
 PROG			EXAMEN		26 Nov. Viernes.
