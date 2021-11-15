@@ -1,0 +1,39 @@
+body{
+    background-color: cadetblue;
+}
+
+#linea{
+    color: blanchedalmond;
+}
+
+@font-face {
+    font-family: "miTitulo";
+    src: url("../fonts/Awesome Possum Shine Demo.otf");
+}
+
+h1{
+    font-family: miTitulo,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(170, 215, 241);
+    text-align: center;
+    font-size: 40pt;
+    word-spacing: 2px;
+}
+@font-face {
+    font-family: titulares;
+    src: url("../fonts/computer_7.ttf");
+}
+
+h2{
+    font-family: titulares,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    background-color: white;
+    font-size: 25pt;
+}
+
+li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18pt;
+    background-color: rgb(170, 180, 200);
+    word-spacing: 2px;
+}
+

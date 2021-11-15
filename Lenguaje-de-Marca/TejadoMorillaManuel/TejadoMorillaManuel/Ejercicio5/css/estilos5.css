@@ -1,0 +1,209 @@
+p{
+    font-size: 90pt;
+    word-spacing: 200pt;
+}
+
+span.dobles{
+    letter-spacing: 0pt;
+}
+
+h1.titulo{
+    font-size: 60pt;
+    color: brown;
+    text-align: center;
+}
+
+hr.linea{
+    color: chartreuse;
+}
+
+@font-face {
+    font-family: rr;
+    src: url("../fonts/Awesome Possum Shine Demo.otf");
+}
+
+@font-face {
+    font-family: s;
+    src: url("../fonts/Canyon_PERSONAL_USE_ONLY-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: t;
+    src: url("../fonts/computer_7.ttf");
+}
+
+@font-face {
+    font-family: v;
+    src: url("../fonts/Halloween Nightmare Demo (daFONT).ttf");
+}
+
+@font-face {
+    font-family: w;
+    src: url("../fonts/Retro Computer.otf");
+}
+
+@font-face {
+    font-family: x;
+    src: url("../fonts/aremat font.ttf");
+}
+
+@font-face {
+    font-family: y;
+    src: url("../fonts/bBagian.ttf");
+}
+
+@font-face {
+    font-family: z;
+    src: url("../fonts/Stormland_PERSONAL_USE_ONLY-Black.otf");
+}
+
+#a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    background-color: brown;
+}
+
+#b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+#c{
+    font-family: cursive,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
+
+#ch{
+    font-family: fantasy, Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    background-color: crimson;
+}
+
+#d{
+    font-family: monospace, 'Times New Roman', Times, serif;
+}
+
+#e{
+    font-family: sans-serif;
+    color: blue;
+}
+
+#f{
+    font-family: serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+#g{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: brown;
+}
+
+#h{
+    font-family: inherit, Georgia, 'Times New Roman', Times, serif;
+    color: chartreuse;
+}
+
+#i{
+  font-family: initial, 'Times New Roman', Times, serif; 
+  color: chocolate; 
+}
+
+#j{
+    font-family: unset,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: coral;
+}
+
+#k{
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+}
+
+#l{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   color: darkblue;
+}
+
+#ll{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgoldenrod;
+}
+
+#m{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgreen;
+}
+
+#n{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkkhaki;
+}
+
+#ñ{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkmagenta;
+}
+
+#o{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkolivegreen;
+}
+
+#p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+}
+
+#q{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkorchid;
+}
+
+#r{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+}
+
+#rr{
+  font-family: rr,'Times New Roman', Times, serif;  
+  color: fuchsia;
+}
+
+#s{
+   font-family: s,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   color: gold;
+}
+
+#t{
+   font-family:t,Georgia, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+   color: grey;
+}
+
+#u{
+   font-family: u,Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   color: hotpink;
+}
+
+#v{
+    font-family: v,Arial, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: indigo;
+}
+
+#w{
+   font-family: w, 'Times New Roman', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: lightcoral;
+}
+    
+#x{
+    font-family: x, Arial, Helvetica, sans-serif;
+    color: lightgreen;
+}
+
+#y{
+   font-family: y, Georgia, 'Times New Roman', Times, serif; 
+   color: mediumslateblue;
+}
+
+#z{
+    font-family: z, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+}
