@@ -1,20 +1,20 @@
 package ejercicio1;
 
 public class Circulo {
-	
+	//Atributos
 	private double radio;
 	
-	//Atributos
+	//Constructores
 	public Circulo (double radio) {
 		this.radio=radio;
 	}
-	//Constructores
+
 	public Circulo () {
 		
 	}
 	
-	//Getters and Setters
-	public double radio () {
+	//Getters and Setters --- Cuando tengo antributos, sino no tienes get or set
+	public double getRadio () {
 		return radio;
 	}
 	public void setRadio(double radio) {
@@ -29,4 +29,3 @@ public class Circulo {
 	}
 }
 
-//Ejercicio 3 Area * altura
