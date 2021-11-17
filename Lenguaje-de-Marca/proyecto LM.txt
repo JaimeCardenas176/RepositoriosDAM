@@ -1,0 +1,19 @@
+Pagina de videojuegos  UBISHIT
+
+4 VIDEOJUEGOS - Cada uno escoge el suyo
+
+GAMA DE COLORES : 
+
+_________________________________________________
+Header - Álvaro
+Footer - Nico
+Aside - Durban
+Imagen de portada - Luismi
+_________________________________________________
+Contenido 
+
+Sinopsis
+Jugabilidad
+Requisitos minimos y recomendados
+Nota
+imágenes 
