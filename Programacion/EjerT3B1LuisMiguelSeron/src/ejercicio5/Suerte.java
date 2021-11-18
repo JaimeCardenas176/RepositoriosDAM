@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class Suerte {
 	
-	public int quiniela() {
-		int n = aleatorio(2)+1;
+	public char quiniela() {
+		int n = aleatorio(3);
 		switch(n) {
 		case 1: return '1';
 		case 2: return '2';
-		default: return '0';
+		default: return 'X';
 		}
 	}
 	
@@ -19,7 +19,7 @@ public class Suerte {
 	
 	private int aleatorio(int maximo) {
 		Random r = new Random();
-		return r.nextInt(maximo+1);
+		return r.nextInt(maximo)+1;
 	}
 	
 }
