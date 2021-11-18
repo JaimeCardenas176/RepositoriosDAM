@@ -31,4 +31,3 @@ public class Cilindro {
 		return base.calcularArea()*altura;
 	}
 }
-//Ejercicio 3 Area Base * altura

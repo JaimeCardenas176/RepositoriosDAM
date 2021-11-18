@@ -10,6 +10,12 @@ pinMode(BOTON1,INPUT);
 pinMode(BOTON2,INPUT);
 }
 void loop(){
+  if (val&&val2==HIGH){
+   digitalWrite(LED,HIGH);
+   delay(300);
+   digitalWrite(LED,LOW);
+   
+  }
 val=digitalRead(BOTON1);
 if  (val==HIGH){
 digitalWrite(LED,HIGH);
