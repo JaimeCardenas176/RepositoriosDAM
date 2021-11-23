@@ -1,7 +1,5 @@
 package ejercicio5;
 
-import java.util.Iterator;
-
 import lectura.Leer;
 
 public class Principal {
@@ -46,6 +44,6 @@ public class Principal {
 		}
 		
 	}
-	// Sigue sin estar acabado Jaime, que sé que estás leyéndome.
+
 
 }
