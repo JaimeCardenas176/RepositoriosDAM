@@ -16,3 +16,8 @@
 7. Se mergea la rama de trabajo (propia) con la rama Master.
 
 8. Se hace push de Master a GitHub.
+
+
+---------------------------------------
+
+ANTES DE HACER PULL GIT REMOTE UPDATE Y LUEGO GIT PULL
