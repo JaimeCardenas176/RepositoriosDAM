@@ -18,7 +18,7 @@ public class Suerte {
 	}
 	
 	private int aleatorio(int maximo) {
-		Random r = new Random();
+		Random r = new Random(System.nanoTime());
 		return r.nextInt(maximo)+1;
 	}
 	
