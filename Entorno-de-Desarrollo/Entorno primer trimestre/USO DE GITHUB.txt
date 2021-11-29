@@ -1,0 +1,23 @@
+				PASOS PARA TRABAJAR EN GRUPO EN GITHUB
+--------------------------------------------------------------------------------------------
+
+1. Se hace pull de Master de GitHub.
+
+2. Se cambia a la rama de trabajo (propia).
+
+3. Se mergea Master con la rama de trabajo (propia).
+
+4. Se trabaja en dicha rama.
+
+5. Se hacen los commits necesarios.
+
+6. Se cambia a la rama Master.
+
+7. Se mergea la rama de trabajo (propia) con la rama Master.
+
+8. Se hace push de Master a GitHub.
+
+
+---------------------------------------
+
+ANTES DE HACER PULL GIT REMOTE UPDATE Y LUEGO GIT PULL
