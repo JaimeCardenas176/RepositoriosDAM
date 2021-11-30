@@ -22,7 +22,7 @@ public class Circulo {
 	}
 	
 	//Nuestros métodos 
-	// Nunca poner dos return. Sólo se puede devover 1 vez.
+	// Nunca poner dos return. Sólo se puede devolver 1 vez.
 	
 	public double calcularArea() {
 		return Math.PI*radio*radio;
