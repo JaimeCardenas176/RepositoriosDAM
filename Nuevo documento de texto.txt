@@ -1,0 +1,4 @@
+Atributos que son arrays de strings (con las imagenes en datos) ((ASCI) VOID)
+Estructurar el mapa (empezar la ruta)
+Array de posiciones para el mapa.
+Encontrar el cafe y la bendicion de don bosco el chulo.
