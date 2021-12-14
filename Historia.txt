@@ -1,0 +1,21 @@
+UN TOTAL DE 18 POSICIONES.
+
+1.- Escoges clase y decision.
+2.-  Cafe
+3.- Te toca arma
+4.- Saltas clase
+5.- Peleas con Rafa
+6.- Ayuda solidaria
+7.- Pelea con Miguel
+8.- Cafelito
+9.- Curso Udemy
+10.- Video Tutorial
+11.- Pelea con Ángel
+12.- Video Tutorial
+13.- Pierdes un poco de vida
+14.- Bendicion de don Bosco
+15.- Boletines BBDD
+16.- Trampa mortal
+17.- Arma tocha
+18.- Pelea con Luis Miguel
+END

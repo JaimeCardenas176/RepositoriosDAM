@@ -1,0 +1,40 @@
+Hola viajero, cuéntame sobre ti, qué haces cuando llegas tarde ?
+A) Me enfado con el portero, pienso como eliminarlo sigilosamente y me voy.
+B) Que no me deja entrar ? Tumbo la puerta mientras grito "Por la Horda!"
+C) No pasa nada, me voy a la cafetería a meditar en mi siguiente estrategia.
+
+(Dependiendo de lo que escojas serás asesino, guerrero o hechicero)
+___________________________________________________________________________
+
+0.- Coge tu arma y vamos a por todas!
+Te encuentras una decision importante... estás llegando tarde. Que harás ?
+-Te vas a tomarte un cafe o te cuelas por la iglesia ?
+
+1.- Decides tomarte un café con el Carlos lo cual te espabila.
+Ahora que no entraste a los buenos dias, vas a...
+	- Saltarte las clases (3)
+	- Ir a clase de Rafa (4)
+2.- Te cuelas por la iglesia, nadie te ve y encuentras una lanza divina.
+Ahora que harias ? 
+	-Vas directo a clase(4)
+	-Ayuda solidaria. (5)
+3.- Mientras te estás saltando las clases Miguel te vé y te suelta un sermón sobre
+responsabilidad (pierdes algo de vida porque tu conciencia no te deja en paz)
+	-Ahora te enfrentas a Miguel (6)
+
+4.- Te toca pelear con Rafa, suerte. (Aunque no la necesitas)
+	-Pelea con Miguel (6)
+5.- Gracias a que ayudaste a cargar todos los regalos de reyes y la comida te sube el ataque (un poco)
+	-Pelea con Miguel (6)
+6.- Te toca pelear con Miguel. suerte.
+Despues de la pelea hay recreo. Te vas a la cafeteria con tus compañeros ? o te vas a la biblioteca a estudiar ?
+	-La cafeteria te da el cafelito (7)
+	-En la biblioteca está el curso Udemy (8)
+7.- La cafeteria está llena pero te ponen el café "rapido".
+De aqui tienes dos opciones:
+	-Estudiar un videotutorial en la biblio (9)
+	-Ir a clase (10) /(Angel)
+8.- En la biblioteca te ofrecen hacer un curso Udemy express
+Y ahora tienes dos opciones:
+	-Estudiar en la biblioteca lo que Ángel tiene que explicar (9)
+	-Ir a clase (10) /(Angel)
