@@ -1,20 +1,24 @@
 body{
     background-color: cornflowerblue;
-    display: block;
-    flex-flow: row wrap;
-    align-content: center;
     margin-left: 2cm;
     margin-top: 2cm;
+    box-sizing: border-box;
 }
-
-div.filaUno{
+#box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;  
+    border-style: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    align-items: baseline;
 }
-div.filaDos{
-}
-div.filaTres{
+div.image{
+    padding: 10px;
+    margin: 2em;
+    flex-basis: 200px; 
 }
 img{
     border-radius: 50px;
-    width: 20%;
-    height: 20%;    
 }
