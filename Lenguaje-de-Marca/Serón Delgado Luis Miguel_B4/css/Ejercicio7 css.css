@@ -1,0 +1,20 @@
+body{
+    background-color: cornflowerblue;
+    display: block;
+    flex-flow: row wrap;
+    align-content: center;
+    margin-left: 2cm;
+    margin-top: 2cm;
+}
+
+div.filaUno{
+}
+div.filaDos{
+}
+div.filaTres{
+}
+img{
+    border-radius: 50px;
+    width: 20%;
+    height: 20%;    
+}

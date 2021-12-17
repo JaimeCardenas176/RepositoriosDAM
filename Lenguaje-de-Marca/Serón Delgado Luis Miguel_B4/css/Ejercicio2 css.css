@@ -1,0 +1,19 @@
+p{
+    box-sizing: content-box;
+    background-image: url(../img/fondo_jovenes.png), url(../img/fondo_trama.png);
+    background-size: 75%, cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 50px;
+    border-width: 0px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family: Arial;
+    font-size: 35pt;
+    text-align: center;
+    color: whitesmoke;
+    width: 800px;
+    height: 565px;
+    text-transform: uppercase;
+}
