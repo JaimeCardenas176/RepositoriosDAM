@@ -9,8 +9,8 @@ public class Principal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int eleccion=0, eleccion2=0, min=0, max=0, valorMin=0, valorMax=0;
-		Random	r	=	new	Random();
+		int eleccion=0, eleccion2=0, min=0, max=0, valorMin=0, valorMax=0, ver;
+		Random	r	=	new	Random(System.nanoTime());
 		int [] array=null;
 		System.out.println("Bienvenid@ al programa!");
 		System.out.println("A continuación vamos a crear un programa que :");
@@ -19,6 +19,7 @@ public class Principal {
 		System.out.println("3. Rellenar el array mediante números aleatorios entre los dos valores que diga el usuario.");
 		System.out.println("4. Mostrar por pantalla la suma de todos los elementos.");
 		System.out.println("5. Mostrar el mayor y el menor guardados en el array.");
+		System.out.println("6. Mostrar la posicion que el usuario elija");
 		System.out.println("0. Salir");
 		do {
 
@@ -54,8 +55,7 @@ public class Principal {
 				}
 				System.out.println("La suma total es "+ suma);
 				break;
-
-			default:
+			case 5:
 				System.out.println("El último paso es mostrar el mayor y el menor guardados en el array.");
 				for (int i = 0; i < array.length; i++) {
 					
@@ -73,6 +73,16 @@ public class Principal {
 						System.out.println("El valor mínimo es: "+valorMin);
 					}
 				}
+				break;
+			default:
+				System.out.println("Que posición quieres ver ??");
+				ver=Leer.datoInt()-1;
+				if (ver < array.length) {
+					System.out.println(array[ver]);
+				}else {
+					System.out.println("Escoja un numero menor");
+				}
+				
 				break;
 			}
 		} while (eleccion!=0);
