@@ -1,0 +1,11 @@
+1.- git remote update
+2.- git pull (estando en master)
+3.- git checkout luimi
+4.- git merge master
+5.- (resolver los conflictos que existan)
+6.- Cuando acabe, comiteo en luismi
+7.- git checkout master
+8.- git merge luismi
+9.- Si hay conflictos vuelvo a resolver
+10.- En master despues de resolver conflictos 
+PUSHEAS
