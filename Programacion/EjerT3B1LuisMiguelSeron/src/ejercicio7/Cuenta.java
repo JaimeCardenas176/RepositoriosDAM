@@ -7,6 +7,8 @@ public class Cuenta {
 	private double saldo;
 	private String nombreTitular;
 	
+	//Constructor
+	
 	public Cuenta(double saldo, String nombreTitular) {
 		super();
 		this.saldo = saldo;
