@@ -4,17 +4,13 @@ import java.util.Random;
 
 public class Sorteo {
 	// Todos los puntos que me pide el ejercicio van aqui
+	// Posibilidad de comprar/generar un décimo (elegir un número).
+	// Hacer sorteo, donde se generará aleatoriamente el número premiado.
+	// Comprobar si nuestro décimo está premiado.
+	// Mostrar si eres ganador o no (en el main).
+	// 5 numeros 0 - 9.  ejemplo 13999
 	
-	public static int getNumeroRandom() {
-		int max=9, min=0;
-		Random random = new Random(System.nanoTime());
-		return random.nextInt(max - min);
-	}
-	public static int[] getNumerosPremiado() {
-		int[] arraySuerte = new int[5];
-		for (int i = 0; i < arraySuerte.length; i++) {
-			arraySuerte[i] = getNumeroRandom();
-		}
-		return arraySuerte;
-	}
+	public void int getNumeroRandom() {
+		
+	}	
 }
