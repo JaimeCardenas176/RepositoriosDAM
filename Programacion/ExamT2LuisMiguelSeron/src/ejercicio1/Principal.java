@@ -8,7 +8,7 @@ import lectura.Leer;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int opcion, opcionDos, opcionTres, tamanio;
 		System.out.println("Bienvenido a nuestra pequeña estación meteorológica");
 		System.out.println("Qué cantidad de días quieres ver ?");
