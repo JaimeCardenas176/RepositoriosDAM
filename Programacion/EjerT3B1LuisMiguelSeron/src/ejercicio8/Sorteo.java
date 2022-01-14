@@ -10,7 +10,35 @@ public class Sorteo {
 	// Mostrar si eres ganador o no (en el main).
 	// 5 numeros 0 - 9.  ejemplo 13999
 	
-	public void int getNumeroRandom() {
-		
-	}	
+	private double Decimo;
+	private int Premiado;
+	public Sorteo(double decimo, int premiado) {
+		super();
+		Decimo = decimo;
+		Premiado = premiado;
+	}
+	public double getDecimo() {
+		return Decimo;
+	}
+	public void setDecimo(double decimo) {
+		Decimo = decimo;
+	}
+	public int getPremiado() {
+		return Premiado;
+	}
+	public void setPremiado(int premiado) {
+		Premiado = premiado;
+	}
+	@Override
+	public String toString() {
+		return "Sorteo [Decimo=" + Decimo + ", Premiado=" + Premiado + "]";
+	}
+	public int generarAle (int desde, int hasta) {
+		Random r = new Random(System.nanoTime());
+		return this.generarAle(desde, hasta);
+	}
+	public int sortear (int desde, int hasta) {
+		return generarAle (desde, hasta);
+	}
+	
 }
