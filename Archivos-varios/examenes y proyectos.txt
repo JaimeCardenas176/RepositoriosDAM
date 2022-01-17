@@ -1,1 +1,5 @@
-
+Lunes 24 de Enero 		EXAMEN PROGRAMACION - (2da parte T3)
+Martes 25 de Enero 		EXAMEN ENTORNO DES  - Diagramas de clase
+Miércoles 26 de Enero		EXAMEN BBDD	    - Creaciones de tablas
+Jueves 27 de Enero		EXAMEN
+Viernes 28 de Enero		EXAMEN LM	    - Menus y listas
