@@ -15,10 +15,6 @@ public class Movil {
 		this.precioUnit = precioUnit;
 	}
 
-	public Movil() {
-		super();
-	}
-
 	// Getters & Setters
 	
 	public String getMarca() {
