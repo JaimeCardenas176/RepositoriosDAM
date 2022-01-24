@@ -1,7 +1,5 @@
 package ejercicio06;
 
-import java.lang.invoke.SwitchPoint;
-
 import lectura.Leer;
 
 public class Principal {
@@ -13,7 +11,7 @@ public class Principal {
 		for (int i = 0; i < listaTickets.length; i++) {
 			listaTickets[i] = new Entrada(5,true,numFila,numButaca);
 				numButaca++;
-			if (numButaca%10==0) {
+			if (numButaca%multiplo==0) {
 				numFila++;
 			}
 		}

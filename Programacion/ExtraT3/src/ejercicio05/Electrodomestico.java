@@ -1,4 +1,4 @@
-package ejercicio5;
+package ejercicio05;
 
 public class Electrodomestico {
 
